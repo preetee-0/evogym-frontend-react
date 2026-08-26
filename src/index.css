@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@700;800;900&display=swap');
+
+* {
+  margin: 2;
+  padding: 2;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  
+  overflow-x: hidden;
+}
+
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: #F8F4EB;
+  color: #5E0000;
+  
+  overflow-x: hidden;
+  
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
