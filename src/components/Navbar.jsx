@@ -30,7 +30,7 @@ function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
        <div className="flex items-center gap-2 md:pl-20">
   <a href="#home" className="text-2xl font-black text-[#5E0000]">
-    EVOGYM FHB
+    EVOGYM 
   </a>
 
   <span className="text-[#FF6B66] text-xs">
