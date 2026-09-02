@@ -29,7 +29,7 @@ function Contact() {
           <motion.div
             initial={{ opacity: 0, x: -60 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }}>
             <h4 className="mt-3 text-2xl font-black leading-tight text-[#5E0000] sm:text-3xl">
-              JOIN NOW TO GET IN SHAPE
+              JOIN NOW TO GET IN SHAPE TEST
             </h4>
             <p className="mt-5 leading-8 text-black">
               Ready to start your fitness journey? Fill out the form and our team will get in touch with you.
