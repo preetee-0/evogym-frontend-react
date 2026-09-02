@@ -5,29 +5,17 @@ function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen overflow-hidden bg-[#F8F4EB] pt-20"
+      className="relative w-full min-h-screen overflow-hidden bg-[#F8F4EB] pt-20"
     >
 {/* Background EVOLVE */}
 <div className="pointer-events-none absolute top-24 left-0 z-0 w-full overflow-hidden">
-  <h1
-    className="
-      whitespace-nowrap
-      text-[36px]
-      font-extrabold
-      tracking-wide
-      text-black/10
-      sm:text-[65px]
-      md:text-[100px]
-      lg:text-[160px]
-      lg:pl-10
-    "
-  >
-    EVOLVE
-  </h1>
+<h1 className="whitespace-nowrap ml-2 text-[36px] font-extrabold text-black/5 sm:ml-4 sm:text-[65px] md:ml-6 md:text-[100px] lg:ml-8 lg:text-[160px]">
+  EVOLVE
+</h1>
 </div>
 
       {/* Main content */}
-      <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-10">
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 lg:px-10">
 
         <div className="grid w-full grid-cols-1 items-center gap-8 lg:grid-cols-2 lg:gap-12">
 
@@ -36,7 +24,7 @@ function Hero() {
             initial={{ opacity: 0, x: -60 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="relative z-10 pt-20 pl-4 sm:pl-8 lg:pl-12"
+            className="relative z-10 w-full pt-20 pl-6 sm:pl-8 lg:pl-12"
           >
             <h1 className="text-5xl font-black leading-tight text-[#5E0000] sm:text-6xl lg:text-7xl">
               EVOGYM
